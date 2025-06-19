@@ -93,10 +93,11 @@ export default {
 
 .close-btn {
   display: block;
-  margin-top: 1rem;
   background-color: #eee;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 5px;
+  margin: 0;
   cursor: pointer;
+  color: #ccc;
 }
 </style>

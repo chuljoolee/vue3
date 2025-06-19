@@ -132,11 +132,18 @@ h1 {
   max-width: 1460px;
   margin: 0 auto;
 }
+.headerWrap ul li {
+  padding: 5px 0;
+}
 .headerWrap ul li a{
   color: #ddd;
   margin: 0;
   padding: 0;
   border: 0;
   text-decoration-line: none;
+}
+
+.headerWrap ul li > a:hover {
+  color: #eee;
 }
 </style>
