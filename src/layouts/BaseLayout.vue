@@ -48,7 +48,7 @@ export default {
   top: 0;
   z-index: 1000;
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 .main {
@@ -72,7 +72,8 @@ export default {
 .footer {
   flex-shrink: 0;
   background: #f8f8f8;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
+  border-top:1px solid #eee;
 }
 </style>

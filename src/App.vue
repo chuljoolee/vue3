@@ -9,7 +9,7 @@
     </div>
 
     <template #footer>
-      <MainFooter />
+      <MainFooter customClass="inner-footer" />
     </template>
   </BaseLayout>
 </template>
@@ -29,6 +29,9 @@ export default {
 </script>
 
 <style module lang="scss">
+.inner-footer {
+  border-top:1px solid #000;
+}
 .main-header {
   margin: 0;
   padding: 0;

@@ -1,8 +1,8 @@
 <template>
   <div :id="id" :class="[$style.layout, customClass]">
-    <header :class="$style.header">
+    <div :class="$style.header">
       <slot name="header" />
-    </header>
+    </div>
 
     <main :class="[$style.main, pageTypeClass]">
       <div :class="$style['page-contents']">
@@ -10,9 +10,9 @@
       </div>
     </main>
 
-    <footer :class="$style.footer">
+    <div :class="$style.footer">
       <slot name="footer" />
-    </footer>
+    </div>
   </div>
 </template>
 

@@ -10,7 +10,7 @@
     </div>
 
     <template #footer>
-      <MainFooter />
+      <MainFooter customClass="in-foot"/>
     </template>
   </BaseLayout>
 </template>
@@ -28,3 +28,6 @@ export default {
   }
 }
 </script>
+
+<style module lang="scss">
+</style>

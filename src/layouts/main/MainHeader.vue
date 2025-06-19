@@ -1,5 +1,5 @@
 <template>
-  <header :id="id" :class="[$style.header, customClass]">
+  <div :id="id" :class="[$style.headerWrap, customClass]">
     <div :class="$style.inner">
       <slot name="logo">
         <h1 class="logo">LOGO</h1>
@@ -74,7 +74,7 @@
       <!--//햄버거 메뉴 슬롯-->
       
     </div>
-  </header>
+  </div>
 </template>
 
 <script setup>
@@ -97,10 +97,10 @@ h1 {
   width: 163px;
   height: 38px;
 }
-.header {
+.headerWrap {
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0px solid #eee;
   position: relative;
   z-index: 100;
 }
@@ -116,8 +116,8 @@ h1 {
 
 .nav {
   flex: 1;
-    min-width: 0;
-    display: flex;
+  min-width: 0;
+  display: flex;
 }
 .nav ul {
   display: flex;
@@ -128,11 +128,15 @@ h1 {
   display: flex;
   align-items: center;
 }
-.header > header {
+.headerWrap {
   max-width: 1460px;
   margin: 0 auto;
 }
-.header ul li a{
+.headerWrap ul li a{
   color: #ddd;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration-line: none;
 }
 </style>
