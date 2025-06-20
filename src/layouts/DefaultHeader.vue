@@ -67,6 +67,10 @@
               <li class="nav-item">
                 <RouterLink class="nav-link" active-class="active" to="/button">button</RouterLink>
               </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/ContContainer">ContContainer</RouterLink>
+              </li>
+              
             </ul>
           </nav>
         </HamburgerMenu>

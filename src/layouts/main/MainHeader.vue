@@ -66,6 +66,24 @@
               <li class="nav-item">
                 <RouterLink class="nav-link" active-class="active" to="/Sub">Sub</RouterLink>
               </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/menuGroup">menuGroup</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/ContContainer">ContContainer</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/align">align</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/ColView">ColView</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/fullCheck">fullCheck</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink class="nav-link" active-class="active" to="/ContsButton">ContsButton</RouterLink>
+              </li>
               
             </ul>
           </nav>

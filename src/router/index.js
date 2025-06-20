@@ -19,8 +19,11 @@ import NewCheckBox from '@/views/NewCheckBox.vue';
 import NewCheckRadio from '@/views/NewCheckRadio.vue'; 
 import Main from '@/views/Main.vue'; 
 import Sub from '@/views/Sub.vue'; 
-
-
+import menuGroup from '@/views/menuGroup.vue'; 
+import AlignView from '@/views/AlignView.vue'; 
+import ColView from '@/views/ColView.vue'; 
+import FullCheck from '@/views/FullCheck.vue'; 
+import ContsButton from '@/views/ContsButton.vue'; 
 
 
 const routes = [
@@ -106,6 +109,35 @@ const routes = [
     path: '/Sub',
     component:Sub,
   },
+  {
+    path: '/menuGroup',
+    component:menuGroup,
+  },
+  {
+    path: '/align',
+    component:AlignView,
+  },
+  {
+    path: '/ColView',
+    component:ColView,
+  },
+  {
+    path: '/fullCheck',
+    component:FullCheck,
+  },
+  {
+    path: '/ContsButton',
+    component:ContsButton,
+  },
+  /*
+  {
+    path: '/main',
+    name: 'Main',
+    component: () => import('@/views/MainView.vue'),
+    meta: { layout: 'mainBenefit' }
+  }
+  */ 
+  
 ];
 
 const router = createRouter({

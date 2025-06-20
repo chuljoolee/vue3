@@ -1,13 +1,13 @@
 <template>
   <SwiperComponent :swiperOptions="swiperOptions">
     <swiper-slide>
-      <div class="bg-red-500 text-black p-8 text-center">슬라이드 1</div>
+      <div class="bg-red-500 text-black p-8 text-center"> 1</div>
     </swiper-slide>
     <swiper-slide>
-      <div class="bg-green-500 text-black p-8 text-center">슬라이드 2</div>
+      <div class="bg-green-500 text-black p-8 text-center"> 2</div>
     </swiper-slide>
     <swiper-slide>
-      <div class="bg-blue-500 text-black p-8 text-center">슬라이드 3</div>
+      <div class="bg-blue-500 text-black p-8 text-center"> 3</div>
     </swiper-slide>
   </SwiperComponent>
 </template>

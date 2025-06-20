@@ -4,13 +4,16 @@ import '@/assets/css/common.css'
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from '@/router';
-import { createPinia } from 'pinia'
+import { createPinia } from 'pinia';
+//import { createHead } from '@vueuse/head';
 
 import 'bootstrap/dist/js/bootstrap.js';
 
 //createApp(App).use(router).use(createPinia()).mount('#app');
 
 const app = createApp(App)
+//const head = createHead();
+//app.use(head);
 
 app.use(createPinia())
 app.use(router)
